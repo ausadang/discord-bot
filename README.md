@@ -55,12 +55,27 @@ A multipurpose Discord bot with logging, auto-roles, and administration features
 Configure the following in your `.env` file:
 
 ```
-TOKEN=your_discord_bot_token
-CLIENT_ID=your_client_id
+# Discord Bot Credentials - Keep these secure and never share them
+TOKEN=YOUR_DISCORD_BOT_TOKEN_HERE
+CLIENT_ID=YOUR_DISCORD_BOT_CLIENT_ID_HERE
+
+# Custom Colors - You can customize these
 COLOR_SUCCESS=#51ff54
 COLOR_FAIL=#ff5151
 COLOR_WARN=#fdff51
-SUDO_PASSWORD=your_secure_password
+
+# Application
+SUDO_PASSWORD=SET_YOUR_SUSO_PASSWORD_HERE
+
+WARN_TAG_NOT_FOUND=⚠️ Please tag a user.
+USER_INVALID=⚠️ The specified user is invalid.
+NOT_NUMBER=⚠️ Please enter a valid number.
+TAG_YOURSELF=⚠️ Do not tag yourself.
+TAG_OTHER=⚠️ Do not tag other users.
+NO_PERMISSION=❌ You do not have permission to use this command.
+WAIT_TIME=🕐 Please wait before using this command again.
+
+
 ```
 
 ## Permissions
